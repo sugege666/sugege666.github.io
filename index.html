@@ -254,7 +254,7 @@ body{
             <img src="avatar.jpg" alt="头像">
             </a>
         </div>
-        <div class="name">sugegeMC2015</div>
+        <div class="name"><a href="https://github.com/sugege666">sugegeMC2015</a></div>
         <div class="tag">爱探索Eaglercraft、minecraft种子、website</div>
         <div class="desc">
 专注Eaglercraft 1.8网页版开发<br>
@@ -283,64 +283,17 @@ body{
         <div class="video-title">我的其中一个代表作：</div>
         <div class="video-box">
             <iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=116627572004744&bvid=BV1HBGL61E28&cid=38571478292&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+            
             <p>想在这里玩游戏吗？什么❓️玩！行，看下面：</p>
-
-            <div class="game-ad-banner" id="gameAdBanner">
-                <div class="game-ad-close" id="gameAdClose">×</div>
-                <a href="https://eagseed.gamer.gd/" target="_blank" class="game-ad-link">
-                    <img src="adimg.jpg" alt="Eaglercraft种子库" class="game-ad-img">
-                    <div class="game-ad-text">
-                        <div class="game-ad-title">Eaglercraft 种子库</div>
-                        <div class="game-ad-desc">一键查找地形种子，玩起来更方便</div>
-                    </div>
-                </a>
-            </div>
-
-            <h1>Eaglercraft 1.16.5</h1>
-            <iframe src="https://mcjs-beta.144449.xyz/1.16.5" width="100%" height="420"></iframe>
             <h1>明日回拨</h1>
             <iframe src="https://telephone.heriris.cn" width="100%" height="420"></iframe>
         </div>
     </div>
 </div>
-
-<div class="ad-float-box" id="adBox">
-    <div class="ad-close" id="adClose">×</div>
-    <a href="https://eagseed.gamer.gd/" target="_blank">
-        <img class="ad-image" src="adimg.jpg" alt="广告图">
-    </a>
-    <div class="ad-text">
-        <a class="ad-title" href="https://eagseed.gamer.gd/" target="_blank">Eaglercraft海量种子库，一键查找地形！</a>
-        <div class="ad-tag">推广 · MC网页版资源</div>
-    </div>
 </div>
-
-<script>
-//右下角广告
-const adBox = document.getElementById('adBox');
-const adClose = document.getElementById('adClose');
-const storageKey = 'ad_closed';
-if(localStorage.getItem(storageKey) !== '1'){
-    adBox.style.display = 'block';
-}
-adClose.addEventListener('click',()=>{
-    adBox.style.display = 'none';
-    localStorage.setItem(storageKey,'1');
-})
-
-//横幅广告
-const gameAdBanner = document.getElementById('gameAdBanner');
-const gameAdClose = document.getElementById('gameAdClose');
-const gameAdStorageKey = 'game_ad_closed';
-if(localStorage.getItem(gameAdStorageKey) !== '1'){
-    gameAdBanner.style.display = 'block';
-}
-gameAdClose.addEventListener('click',()=>{
-    gameAdBanner.style.display = 'none';
-    localStorage.setItem(gameAdStorageKey,'1');
-});
-
-</script>
-
+<p>我搭过的站点：</p>
+<a class="name" href="https://eagwiki.is-best.net">MC网页版大全（可能不完整）</a>
+<a class="name" href="eagseed.gamer.gd">Eaglercraft 1.8 种子</a>
+<a></a>
 </body>
 </html>
